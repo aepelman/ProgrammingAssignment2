@@ -2,6 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
+##This function can catche a matrix and its inverse. By setting a matrix with ths function
+## it will store it so that if called by the second function it will simply get the cached 
+##solution from the returend list
 
 makeCacheMatrix <- function(x = matrix()) {
   
@@ -32,6 +35,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+##This function will get the inverse function from the previous function
+##if the matrix was cahced, it will get it and then print it
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
